@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(45deg, #8E2DE2, #4A00E0);
+    color: white;
+}
+
+
+.wrapper{
+    width: 480px;
+    min-height: 100vh;
+    margin: 100px auto;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.heading{
+    font-size: 38px;
+}
+
+.heading span{
+    color: yellow;
+}
+
+.textbox{
+    width: 460px;
+    height: 150px;
+    margin: 50px auto;
+    padding: 10px 10px;
+    /* border: 2px solid white; */
+    background: #ffffff30;
+    outline: none;
+    border-radius: 10px;
+    resize: none;
+    color: white;
+    font-size: 18px;
+}
+
+.textbox::placeholder{
+    color: white;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 16px;
+}
+
+.wrapper-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select{
+    width: 300px;
+    color: #fff;
+    background: #403d84;
+    border: 1px solid white;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.play-btn{
+    background-color: palevioletred;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
